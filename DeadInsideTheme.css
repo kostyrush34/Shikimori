@@ -1,0 +1,410 @@
+				/* Анимированный график активности */
+.activity .graph.vertical .line .bar {
+  box-sizing: content-box;
+  transform: translateY(1px);
+  transform-origin: center bottom;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+  animation-name: activity;
+}
+.activity .graph.vertical .line .bar:hover {
+  animation-name: none;
+  transform: none;
+}
+.activity .graph.vertical .line:nth-of-type(6n+2) .bar {
+  animation-delay: -.25s;
+}
+.activity .graph.vertical .line:nth-of-type(6n+4) .bar {
+  animation-delay: -.5s;
+}
+.activity .graph.vertical .line:nth-of-type(6n+3) .bar {
+  animation-delay: -.75s;
+}
+.activity .graph.vertical .line:nth-of-type(6n+6) .bar {
+  animation-delay: -1s;
+}
+.activity .graph.vertical .line:nth-of-type(6n+5) .bar {
+  animation-delay: -1.25s;
+}
+@keyframes activity {
+  0%, 100% {
+    transform: translateY(1px);
+  }
+  50% {
+    transform: translateY(7px);
+  }
+}
+				/* Цветовая тема */
+@media screen and (min-width: 1025px) {
+                .l-top_menu-v2 {
+                    position: sticky;
+                    top: 0;
+                }
+
+                .l-top_menu-v2 .active .submenu {
+                    max-height: calc(100vh - var(--top-menu-height));
+                    overflow-y: auto;
+                }
+            }
+
+            body {
+                background: url(https://free4kwallpapers.com/uploads/originals/2021/10/17/a-cool-dark-mountain-wallpaper.png) no-repeat fixed;
+                background-size: cover;
+                background-position: top center;
+            }
+
+            .b-stats_bar.anime .bar .first {
+                background: #333;
+            }
+
+            .b-stats_bar.anime .bar .second {
+                background: #7b8084;
+            }
+
+            .b-stats_bar.manga .bar .first {
+                background: #333;
+            }
+
+            .b-stats_bar.manga .bar .second {
+                background: #7b8084;
+            }
+
+            .headline, .midheadline, .subheadline {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                background: #444;
+                border-left: 5px solid #444;
+                color: #123;
+                font-size: 18px;
+                font-weight: bold;
+                line-height: 1.65;
+                margin-bottom: 5px;
+                padding: 4px 10px 2px;
+                text-transform: uppercase;
+                -webkit-transition: color 0.2s ease;
+                transition: color 0.2s ease;
+            }
+
+            @media screen and (min-width: 1025px) .subheadline {
+                font-size: 14px;
+                padding: 6px 10px 4px 8px; padding: 6px 10px 4px 8px; ine-height: 14px; }
+
+            .headline>a, .midheadline>a, .subheadline>a {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                color: #fafbfb;
+                cursor: pointer;
+                display: block;
+                text-decoration: none;
+                padding-right: 20px;
+            }
+
+            .headline, .midheadline, .subheadline {
+                font-size: 15px;
+            }
+
+            .headline, .midheadline, .subheadline {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                background: #444;
+                border-left: 5px solid #444;
+                color: #fbfbfb;
+                font-size: 15px;
+                font-weight: bold;
+                line-height: 1.65;
+                margin-bottom: 5px;
+                padding: 4px 10px 2px;
+                text-transform: uppercase;
+                -webkit-transition: color 0.2s ease;
+                transition: color 0.2s ease;
+            }
+
+            .b-options-floated a, .b-options-floated .link {
+                color: #ffffff;
+                cursor: pointer;
+                cursor: pointer;
+                display: inline;
+            }
+
+            .b-list_switchers .switcher.posters {
+                cursor: pointer;
+                color: #ffffff;
+            }
+
+            .b-options-floated .action {
+                color: #ffffff;
+            }
+
+            .l-page {
+                background: #d8d8d8;
+            }
+
+            .p-profiles .profile-head .c-history .entry .title {
+                color: #123;
+            }
+
+            .p-profiles-show .lifetime .times .time.checked:before {
+                font-family: shikimori;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                -webkit-font-feature-settings: 'liga';
+                font-feature-settings: 'liga';
+                text-transform: none;
+                letter-spacing: normal;
+                content: "✓";
+                color: #ff4136;
+                font-size: 11px;
+                margin-right: 4px;
+            }
+
+            .b-stats_bar.lifetime .bar .first {
+                background: #123;
+            }
+
+            .b-stats_bar .bar .third {
+                background: #999;
+            }
+
+            .b-stats_bar a.title {
+                color: #000;
+                cursor: pointer;
+            }
+
+            .bar.simple .bar:hover.s2 {
+                background: #7b8084;
+            }
+
+            .bar.simple .bar.s2 {
+                background: #555;
+            }
+
+            .bar.simple .bar.s1 {
+                background: #444;
+            }
+
+            .bar.simple .bar:hover.s1 {
+                background: #7b8084;
+            }
+
+            .bar.simple .bar.s0 {
+                background: #333;
+            }
+
+            .bar.simple .bar:hover.s0 {
+                background: #7b8084;
+            }
+
+            .bar.simple .bar.s3 {
+                background: #7b8084;
+            }
+
+            .bar.simple .bar:hover.s3 {
+                background: #7b8084;
+            }
+
+            .c-brief .profile-actions > a {
+                color: #333;
+            }
+
+            .b-rate .stars.score {
+                color: #333;
+                position: absolute;
+            }
+
+            .b-rate .stars.background {
+                color: #b1b2b3;
+            }
+
+            .b-add_to_list.watching .trigger, .b-add_to_list.watching .option {
+                background: #444;
+                border-color: #444;
+                color: #ffffff;
+            }
+
+            .b-link_button.dark {
+                -webkit-transition: background-color 0.25s ease, border-color 0.25s ease;
+                transition: background-color 0.25s ease, border-color 0.25s ease;
+                background-color: #444;
+                border-color: #3e4d5d;
+                color: #fff;
+            }
+
+            .p-user_rates-index .list-lines tr .name a {
+                color: #333;
+            }
+
+            .b-add_to_list.planned .trigger, .b-add_to_list.planned .option {
+                background: #444;
+                border-color: #444;
+                color: #ffffff;
+            }
+
+            .b-add_to_list .trigger-arrow {
+                cursor: pointer;
+                color: #ffffff;
+                float: right;
+            }
+
+            .tooltip-inner .close {
+                -webkit-border-radius: 15px;
+                border-radius: 15px;
+                color: #555555;
+                background: #efefef;
+            }
+
+            .tooltip-inner {
+                background: #efefef;
+                background: none repeat scroll 0 0 #efefef;
+            }
+
+            .l-top_menu-v2 {
+                background: #292929;
+            }
+
+            .l-top_menu-v2 .menu-dropdown>span {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                background: #292929;
+            }
+
+            .trigger, .b-add_to_list.watching .option {
+                background: #444444;
+                border-color: #444444;
+                color: #ffffff;
+            }
+
+            .b-add_to_list .expanded-options .remove-trigger .text {
+                color: #ff4136;
+            }
+
+            .b-add_to_list .plus {
+                color: #f6f6f7;
+                cursor: pointer;
+            }
+
+            .b-add_to_list.completed .trigger, .b-add_to_list.completed .option {
+                background: #444444;
+                border-color: #444444;
+                color: #fbfbfb;
+            }
+
+            .b-db_entry-variant-list_item>.info .b-user_rate .b-add_to_list .trigger .plus::before, .b-db_entry-variant-list_item>.info .b-user_rate .b-add_to_list .trigger .edit::before, .b-db_entry-variant-list_item>.info .b-user_rate .b-add_to_list .trigger .trigger-arrow::before, .b-db_entry-variant-list_item>.info .b-user_rate .b-add_to_list .option .plus::before, .b-db_entry-variant-list_item>.info .b-user_rate .b-add_to_list .option .edit::before, .b-db_entry-variant-list_item>.info .b-user_rate .b-add_to_list .option .trigger-arrow::before {
+                font-size: 15px;
+                width: 20px !important;
+            }
+
+            .headline .misc-links>a, .midheadline .misc-links>a, .subheadline .misc-links>a {
+                color: #a0bcd0;
+                cursor: pointer;
+                display: inline;
+                font-size: 12px;
+                font-weight: normal;
+                padding-right: 0;
+                text-transform: none;
+            }
+
+            .midheadline .b-user16, .subheadline .b-user16 {
+                text-transform: none;
+                color: #abddff;
+            }
+
+            .b-list_switchers .switcher.lines {
+                cursor: pointer;
+                color: #ddd;
+            }
+
+            .b-options-floated .action {
+                color: #333;
+            }
+
+            .b-block_list li.selected {
+                background-color: #e5e5e5;
+                color: #000000;
+            }
+
+            .b-list_switchers .switcher.popularity {
+                cursor: pointer;
+                color: #ffffff;
+            }
+
+            .b-list_switchers .switcher.alphabet {
+                cursor: pointer;
+                color: #ffffff;
+            }
+
+            .b-list_switchers .switcher.progress {
+                cursor: pointer;
+                color: #ffffff;
+            }
+
+            @media screen and (min-width: 768px) input, select, textarea {
+                font-size: 19px;
+            }
+
+            .p-profiles-franchise .b-badge:before, .p-profiles .c-franchises .b-badge:before {
+                display: block;
+            }
+
+            .p-profiles-franchise .b-badge[data-progress="100"]:before, .p-profiles .c-franchises .b-badge[data-progress="100"]:before {
+                opacity: unset;
+            }
+
+            .b-options-floated {
+                font-size: 11px;
+                line-height: 12px;
+                position: absolute;
+                right: 10px;
+                color: #fbfbfb;
+            }
+
+            .b-input textarea {
+                background-color: #ccc7e7;
+                border: 1px solid #9c9cc3;
+                color: #123;
+            }
+
+            .b-input input {
+                background-color: #ccc7e7;
+                border: 1px solid #9c9cc3;
+                color: #123;
+            }
+
+            .ProseMirror {
+                background-color: #ccc7e7;
+                border: 1px solid #9c9cc3;
+            }
+
+            .p-profiles-show .profile-head:before {
+                content: '';
+                display: block;
+                height: 0px;
+                background: url("ссылка") no-repeat;
+                background-size: cover;
+                margin: -15px;
+                margin-bottom: 5px;
+            }
+
+            .b-list_switchers .switcher.list {
+                cursor: pointer;
+                color: #d8d8d8;
+            }
+
+            .midheadline .b-user16, .subheadline .b-user16 {
+                color: #9da4a9;
+            }
+
+				/* Отображение дат в истории */
+@import url(https://raw.githubusercontent.com/kaurkaur/Shikimori/master/CSS/HistoryDates.css);
+				/*Поддержка телефонной версии*/
+/* Настройки mobile-версии */
+@media (min-width: 360px) and (max-width: 599px)
+/* Настройки tablet-версии */
+@media (min-width: 600px) and (max-width: 1024px)
+/* Настройки desktop-версии */
+@media (min-width: 1025px) 
