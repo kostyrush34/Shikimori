@@ -1,0 +1,142 @@
+.b-catalog_entry-tooltip>.entry-tooltip_container>a {
+	display: flex;
+	align-self: flex-start;
+	position: relative;
+	max-width: 160px
+}
+
+.b-catalog_entry-tooltip>.entry-tooltip_container>a::before {
+	content: '';
+	display: block;
+	width: 160px;
+	padding-bottom: 155.5556%;
+	background: var(--custom-image, none) var(--custom-settings, center top/cover)
+}
+
+.b-catalog_entry-tooltip>.entry-tooltip_container>a img { 
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: var(--show-default, 1)
+}
+
+.b-catalog_entry>.cover img {
+	opacity: var(--show-default, 1)
+}
+
+.b-catalog_entry>.cover .image-cutter {
+	background: var(--custom-image, none) var(--custom-settings, center top/cover)
+}
+
+.is-spoilers .b-catalog_entry>.cover .image-cutter {
+	--show-default: 1;
+	--custom-image: none
+}
+
+.b-db_entry>.c-image img {
+    max-width: 100%;
+    display: var(--custom-display, 1)
+}
+
+.b-db_entry>.c-image .c-poster::before {
+    content: '';
+    display: block;
+    width: 225px;
+    height: 118px;
+    padding-bottom: 100%;
+    background: var(--custom-image, none)
+}
+[href*="characters/149915-"] {
+  --show-default: 0;
+  --custom-image: url(https://moe.shikimori.one/system/images/original/132597.webp?1677969344)
+}
+
+[href*="characters/132826-"] {
+  --show-default: 0;
+  --custom-image: url(https://moe.shikimori.one/system/images/original/132482.webp?1677966376)
+}
+
+[href*="characters/81931-"] {
+  --show-default: 0;
+  --custom-image: url(https://nyaa.shikimori.one/system/images/original/132465.webp?1677964763)
+}
+
+[href*="characters/177600-"] {
+  --show-default: 0;
+  --custom-image: url(https://nyaa.shikimori.one/system/images/original/132585.webp?1677967504)
+}
+
+[href*="characters/92227-"] {
+  --show-default: 0;
+  --custom-image: url(https://kawai.shikimori.one/system/images/original/132586.webp?1677967821)
+}
+
+[href*="characters/116187-"] {
+  --show-default: 0;
+  --custom-image: url(https://desu.shikimori.one/system/images/original/132588.webp?1677968157)
+}
+
+[href*="characters/93273-"] {
+  --show-default: 0;
+  --custom-image: url(https://dere.shikimori.one/system/images/original/132589.webp?1677968201)
+}
+
+[href*="characters/116199-"] {
+  --show-default: 0;
+  --custom-image: url(https://animethief.files.wordpress.com/2015/05/vlcsnap-2015-05-09-14h34m00s66.jpg?w=768&h=432)
+}
+
+[href*="characters/116181-"] {
+  --show-default: 0;
+  --custom-image: url(https://moe.shikimori.one/system/images/original/132587.webp?1677968152)
+}
+
+[href*="characters/170611-"] {
+  --show-default: 0;
+  --custom-image: url(https://pbs.twimg.com/profile_images/1567075391076171776/W7nrwYI-_400x400.jpg)
+}
+
+[href*="characters/116275-"] {
+  --show-default: 0;
+  --custom-image: url(https://desu.shikimori.one/system/images/original/132598.png?1677970073)
+}
+
+[href*="characters/166439-"] {
+  --show-default: 0;
+  --custom-image: url(https://nyaa.shikimori.one/system/images/original/132590.webp?1677968383)
+}
+
+[href*="characters/558-"] {
+  --show-default: 0;
+  --custom-image: url(https://moe.shikimori.one/system/images/original/132592.webp?1677968519)
+}
+
+[href*="characters/170734-"] {
+  --show-default: 0;
+  --custom-image: url(https://desu.shikimori.one/system/images/original/132593.webp?1677968568)
+}
+
+[href*="characters/4963-"] {
+  --show-default: 0;
+  --custom-image: url(https://dere.shikimori.one/system/images/original/132594.webp?1677968603)
+}
+
+[href*="characters/111335-"] {
+  --show-default: 0;
+  --custom-image: url(https://nyaa.shikimori.one/system/images/original/132595.webp?1677968629)
+}
+
+[href*="animes/245-"] {
+  --show-default: 0;
+  --custom-image: url(https://i.pinimg.com/originals/69/36/27/6936274377bde9d4a2d58094609fa2c6.jpg)
+}
+
+[href*="animes/268-"] {
+  --show-default: 0;
+  --custom-image: url(https://anime-bit.ru/src/img/content/Golden_Boy_OVA_1_1022453900desctop.webp)
+}
+
+[href*="animes/z30276-"] {
+  --show-default: 0;
+  --custom-image: url(https://kawai.shikimori.one/system/images/original/132591.webp?1677968477)
+}
